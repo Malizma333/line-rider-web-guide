@@ -36,9 +36,9 @@ gh_edit_link: true
 gh_edit_link_text: "Contribute to this guide on GitHub"
 gh_edit_repository: "https://github.com/Malizma333/line-rider-web-guide/"
 gh_edit_branch: "main"
-gh_edit_view_mode: "edit"
+gh_edit_view_mode: "tree"
 
-color_scheme: nil
+color_scheme: light
 
 callouts_level: quiet
 callouts:
