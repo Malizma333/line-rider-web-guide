@@ -6,3 +6,6 @@ nav_order: 6
 ---
 
 This is the alternate sites page
+
+- Square mod, train mod, wheel mod
+- track analyzer

@@ -7,3 +7,7 @@ nav_order: 4
 ---
 
 Scripting tutorials description
+
+- Javascript tutorial highlight
+- Developer console
+- Script location
