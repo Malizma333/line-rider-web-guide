@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Camera
+title: Audio
 parent: Basic Tutorials
-permalink: /basic_tutorials/camera/
+permalink: /basic_tutorials/audio/
 ---
 
 Info about audio

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Creating Userscripts
-parent: Userscript Mods
+title: Creating Mods
+parent: Mods
 permalink: /userscripts/develop/
 nav_order: 2
 ---

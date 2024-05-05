@@ -2,7 +2,7 @@
 layout: page
 title: Contributors
 permalink: /contributors/
-nav_order: 8
+nav_order: 6
 ---
 
 This is the contributors page

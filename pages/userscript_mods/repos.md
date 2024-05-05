@@ -1,7 +1,7 @@
 ---
 layout: page
 title: List of Mods
-parent: Userscript Mods
+parent: Mods
 permalink: /userscripts/repos/
 nav_order: 1
 ---

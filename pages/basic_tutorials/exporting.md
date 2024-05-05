@@ -7,7 +7,6 @@ permalink: /basic_tutorials/exporting/
 
 Info about video exporting
 
-- Settings location
 - Does not work with audio yet
 
 ### Export Window Tutorial
