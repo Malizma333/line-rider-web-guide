@@ -24,8 +24,10 @@ search:
 nav_external_links:
   - title: Line Rider API
     url: https://malizma333.github.io/line-rider-web-docs/
+    opens_in_new_tab: true
   - title: Official Discord
     url: https://discord.gg/KqsTrwqjxV
+    opens_in_new_tab: true
 
 aux_links_new_tab: true
 aux_links:
