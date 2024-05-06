@@ -21,9 +21,9 @@ Info about controls
 
 ### Timeline
 - Speed
-- Play/pause
-- Stop
+- Play/pause/stop
 - Flag
+- Onion skinning
 
 ### Editing
 - Lock angle

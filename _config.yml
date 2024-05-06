@@ -1,6 +1,7 @@
 title: Line Rider Web Guide
 description: The comprehensive guide to the web version of Line Rider.
-baseurl: "/home"
+url: "malizma333.github.io"
+baseurl: "/line-rider-web-guide"
 repository: Malizma333/line-rider-web-guide
 
 # Build settings
@@ -24,8 +25,10 @@ search:
 nav_external_links:
   - title: Line Rider API
     url: https://malizma333.github.io/line-rider-web-docs/
+    opens_in_new_tab: true
   - title: Official Discord
     url: https://discord.gg/KqsTrwqjxV
+    opens_in_new_tab: true
 
 aux_links_new_tab: true
 aux_links:
