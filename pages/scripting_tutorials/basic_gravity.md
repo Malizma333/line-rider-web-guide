@@ -2,7 +2,7 @@
 layout: page
 title: Basic Gravity
 parent: Scripting Tutorials
-permalink: /script_tutorials/basic_gravity/
+permalink: /script-tutorials/basic-gravity/
 nav_order: 5
 ---
 

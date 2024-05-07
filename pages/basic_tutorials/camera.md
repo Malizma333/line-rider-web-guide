@@ -2,7 +2,7 @@
 layout: page
 title: Camera
 parent: Basic Tutorials
-permalink: /basic_tutorials/camera/
+permalink: /basic-tutorials/camera/
 ---
 
 Info about camera

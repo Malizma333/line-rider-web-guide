@@ -2,7 +2,7 @@
 layout: page
 title: Layer Automation
 parent: Scripting Tutorials
-permalink: /script_tutorials/layer_automation/
+permalink: /script-tutorials/layer-automation/
 nav_order: 2
 ---
 

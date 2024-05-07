@@ -2,7 +2,7 @@
 layout: page
 title: Layers
 parent: Basic Tutorials
-permalink: /basic_tutorials/layers/
+permalink: /basic-tutorials/layers/
 ---
 
 Info about layers

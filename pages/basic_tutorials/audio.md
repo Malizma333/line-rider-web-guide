@@ -2,7 +2,7 @@
 layout: page
 title: Audio
 parent: Basic Tutorials
-permalink: /basic_tutorials/audio/
+permalink: /basic-tutorials/audio/
 ---
 
 Info about audio

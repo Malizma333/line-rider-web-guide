@@ -2,7 +2,7 @@
 layout: page
 title: Camera
 parent: Scripting Tutorials
-permalink: /script_tutorials/camera/
+permalink: /script-tutorials/camera/
 nav_order: 1
 ---
 

@@ -8,6 +8,8 @@ nav_order: 1
 This is the quickstart page
 
 ### Editing
+
+![]()
 - Canvas
 - Toolbar location
 - Timeline location

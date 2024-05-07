@@ -2,7 +2,7 @@
 layout: page
 title: Settings
 parent: Basic Tutorials
-permalink: /basic_tutorials/settings/
+permalink: /basic-tutorials/settings/
 ---
 
 Info about settings

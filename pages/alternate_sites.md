@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Alternate Sites
-permalink: /alternate_sites/
+permalink: /alternate-sites/
 nav_order: 5
 ---
 

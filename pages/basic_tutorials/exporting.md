@@ -2,7 +2,7 @@
 layout: page
 title: Exporting
 parent: Basic Tutorials
-permalink: /basic_tutorials/exporting/
+permalink: /basic-tutorials/exporting/
 ---
 
 Info about video exporting

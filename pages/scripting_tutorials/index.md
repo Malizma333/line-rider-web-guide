@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scripting Tutorials
-permalink: /script_tutorials/
+permalink: /script-tutorials/
 has_children: true
 nav_order: 3
 ---

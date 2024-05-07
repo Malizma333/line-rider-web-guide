@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Gravity
 parent: Scripting Tutorials
-permalink: /script_tutorials/advanced_gravity/
+permalink: /script-tutorials/advanced-gravity/
 nav_order: 6
 ---
 

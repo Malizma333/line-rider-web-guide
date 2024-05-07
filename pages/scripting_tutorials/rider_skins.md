@@ -2,7 +2,7 @@
 layout: page
 title: Rider Skin Customization
 parent: Scripting Tutorials
-permalink: /script_tutorials/rider_skins/
+permalink: /script-tutorials/rider-skins/
 nav_order: 3
 ---
 

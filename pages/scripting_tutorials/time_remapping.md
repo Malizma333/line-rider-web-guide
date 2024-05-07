@@ -2,7 +2,7 @@
 layout: page
 title: Time Remapping
 parent: Scripting Tutorials
-permalink: /script_tutorials/time_remap/
+permalink: /script-tutorials/time-remap/
 nav_order: 4
 ---
 
