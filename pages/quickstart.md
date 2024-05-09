@@ -5,9 +5,7 @@ permalink: /quickstart/
 nav_order: 1
 ---
 
-This is the quickstart page
-
-### Editing
+### Editor
 
 ![The main canvas editor view](/assets/labeled-quickstart-editor.png)
 1) Sidebar
