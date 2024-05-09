@@ -3,6 +3,7 @@ layout: page
 title: Controls
 parent: Basic Tutorials
 permalink: /basic-tutorials/controls/
+redirect_to: /wip
 ---
 
 Info about controls

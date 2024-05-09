@@ -3,6 +3,7 @@ layout: page
 title: Layers
 parent: Basic Tutorials
 permalink: /basic-tutorials/layers/
+redirect_to: /wip
 ---
 
 Info about layers

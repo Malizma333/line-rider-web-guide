@@ -9,6 +9,7 @@ open_url: true
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Customization
 search_enabled: true

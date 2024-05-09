@@ -3,6 +3,7 @@ layout: page
 title: List of Mods
 parent: Mods
 permalink: /userscripts/repos/
+redirect_to: /wip
 nav_order: 1
 ---
 

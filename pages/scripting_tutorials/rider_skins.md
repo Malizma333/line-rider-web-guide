@@ -3,6 +3,7 @@ layout: page
 title: Rider Skin Customization
 parent: Scripting Tutorials
 permalink: /script-tutorials/rider-skins/
+redirect_to: /wip
 nav_order: 3
 ---
 

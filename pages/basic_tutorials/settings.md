@@ -3,6 +3,7 @@ layout: page
 title: Settings
 parent: Basic Tutorials
 permalink: /basic-tutorials/settings/
+redirect_to: /wip
 ---
 
 Info about settings

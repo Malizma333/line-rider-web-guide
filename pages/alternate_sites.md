@@ -2,6 +2,7 @@
 layout: page
 title: Alternate Sites
 permalink: /alternate-sites/
+redirect_to: /wip
 nav_order: 5
 ---
 
