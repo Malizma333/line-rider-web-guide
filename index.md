@@ -5,7 +5,7 @@ nav_exclude: true
 
 ## About
 
-Welcome to the official Line Rider web guide! This site is meant to host tutorials and resources related to the web edition of line rider, which can be found at www.linerider.com (accessible from the link in the top right).
+Welcome to the official Line Rider web guide! This site is meant to host tutorials and resources related to the web edition of line rider, which can be found at [www.linerider.com](https://www.linerider.com/) (also accessible from the link in the top right).
 
 ### Background
 
@@ -15,8 +15,8 @@ This page was created using static site generation from markdown files using [Je
 
 ### Navigation
 
-Navigation is made easy with the search feature, just click on the search bar above or press the keybind `Ctrl/Cmd + F` to begin searching for topics. A good place to get started is [Quickstart page](/quickstart/), which demonstrates the essential features of line rider web needed to create your first track. 
+Navigation is made easy with the search feature, just click on the search bar at the top or press the keybind `Ctrl/Cmd + F` to begin searching for topics. A good place to get started is [Quickstart page](/quickstart/), which demonstrates the essential features of line rider web needed to create your first track.
 
 For developers, the separate [Developer site](https://malizma333.github.io/line-rider-web-docs/){:target="_blank"} goes more in detail about API features useful for developing mods and external tools.
 
-Contributing to this page is currently only available through the [GitHub repository](https://github.com/Malizma333/line-rider-web-guide/){:target="_blank"}, which requires having a GitHub account and creating a separate branch to make changes. This process may be amended to be more user-friendly in the future.
+Contributing to this page is currently only available through the [GitHub repository](https://github.com/Malizma333/line-rider-web-guide/){:target="_blank"}, which requires having a GitHub account and creating a separate branch to make changes. This process may be amended in the future to be more user-friendly.
