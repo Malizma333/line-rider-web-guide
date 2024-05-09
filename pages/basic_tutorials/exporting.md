@@ -3,6 +3,7 @@ layout: page
 title: Exporting
 parent: Basic Tutorials
 permalink: /basic-tutorials/exporting/
+redirect_to: /wip
 ---
 
 Info about video exporting

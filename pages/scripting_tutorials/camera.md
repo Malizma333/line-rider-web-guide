@@ -3,6 +3,7 @@ layout: page
 title: Camera
 parent: Scripting Tutorials
 permalink: /script-tutorials/camera/
+redirect_to: /wip
 nav_order: 1
 ---
 

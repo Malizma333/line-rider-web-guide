@@ -2,6 +2,7 @@
 layout: page
 title: Contributors
 permalink: /contributors/
+redirect_to: /wip
 nav_order: 6
 ---
 

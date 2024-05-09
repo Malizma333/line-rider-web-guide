@@ -9,6 +9,7 @@ open_url: true
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Customization
 search_enabled: true
@@ -34,9 +35,6 @@ aux_links_new_tab: true
 aux_links:
   "linerider.com":
     - "https://www.linerider.com"
-
-back_to_top: true
-back_to_top_text: "Back to top"
 
 gh_edit_link: true
 gh_edit_link_text: "Contribute to this guide on GitHub"

@@ -9,6 +9,7 @@ gem "just-the-docs", "~> 0.8.1"
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-redirect-from", "~> 0.16.0"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

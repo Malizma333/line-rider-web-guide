@@ -3,6 +3,7 @@ layout: page
 title: Layer Automation
 parent: Scripting Tutorials
 permalink: /script-tutorials/layer-automation/
+redirect_to: /wip
 nav_order: 2
 ---
 

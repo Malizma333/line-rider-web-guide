@@ -3,6 +3,7 @@ layout: page
 title: Time Remapping
 parent: Scripting Tutorials
 permalink: /script-tutorials/time-remap/
+redirect_to: /wip
 nav_order: 4
 ---
 
