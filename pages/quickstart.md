@@ -6,17 +6,15 @@ nav_order: 1
 ---
 
 ### Editor
-
-![The main canvas editor view](/assets/labeled-quickstart-editor.png)
+<img alt="The main canvas editor view" src="{{site.baseurl}}/assets/labeled-quickstart-editor.png" width="650">\
 1) Sidebar
 2) Toolbar
 3) Layers
 4) Timeline
-5) Canvas
 
 ### Sidebar
 
-![The audio and multirider settings fields](/assets/labeled-quickstart-settings.png)
+<img alt="The audio and multirider settings fields" src="{{site.baseurl}}/assets/labeled-quickstart-settings.png" width="200">\
 1) Multirider
 2) Audio
 3) New
@@ -25,8 +23,7 @@ nav_order: 1
 
 ### Recording
 
-![The export track window](/assets/labeled-quickstart-export.png)
-
+<img alt="The export track window" src="{{site.baseurl}}/assets/labeled-quickstart-export.png" width="650">\
 1) Start
 2) Resolution
 3) Render
