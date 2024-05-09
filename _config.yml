@@ -10,6 +10,8 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 
 # Customization
 search_enabled: true
