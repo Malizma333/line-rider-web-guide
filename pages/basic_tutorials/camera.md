@@ -5,11 +5,13 @@ parent: Basic Tutorials
 permalink: /basic-tutorials/camera/
 ---
 
-This is the camera field, where camera zoom and dimensions can be set. This can be found in the settings tab of the sidebar.
+## Camera Settings
+
+These are the camera settings, where camera zoom and dimensions can be set. This can be found in the settings tab of the sidebar.
 
 <img alt="The camera settings area" src="{{site.baseurl}}/assets/camera-settings.png" width="200" style="border: 2px solid gray">
 
-The zoom value can used to set the static zoom of the camera during playback. For the viewport field, any viewport width and height is available, but the recommended viewport size to work with is 720p, which is easier to see on smaller monitors and is supported by most video sharing sites. When filling in the camera dimensions, new options appear.
+The `Zoom` field can used to set the static zoom of the camera during playback. For the `Viewport` fields, any viewport width and height is available, but the recommended viewport size to work with is 720p, which makes it easier to work with the camera preview and is supported by most video sharing sites. When filling in the camera dimensions, new options appear.
 
 <img alt="The camera settings area with the viewport fields filled in" src="{{site.baseurl}}/assets/camera-settings-loaded.png" width="200" style="border: 2px solid gray">
 

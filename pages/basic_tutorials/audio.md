@@ -5,7 +5,9 @@ parent: Basic Tutorials
 permalink: /basic-tutorials/audio/
 ---
 
-This is the audio field, where music or other audio files can be loaded to play over the track. This can be found in the settings tab of the sidebar.
+## Audio Settings
+
+These are the audio settings, where music or other audio files can be loaded to play over the track. This can be found in the settings tab of the sidebar.
 
 <img alt="The load audio area" src="{{site.baseurl}}/assets/audio-settings.png" width="200" style="border: 2px solid gray">
 
