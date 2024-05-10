@@ -21,7 +21,7 @@ The layers container (3) provides an interface for adding and editing track laye
 
 ## Sidebar
 
-This is the sidebar page.
+This is the sidebar page with the settings tab open.
 
 <img alt="The audio and multirider settings fields" src="{{site.baseurl}}/assets/labeled-quickstart-settings.png" width="200" style="border: 2px solid gray">
 
