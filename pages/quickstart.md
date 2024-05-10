@@ -9,7 +9,7 @@ nav_order: 1
 
 This is the editor view, which is the first thing you see when opening up the site and pressing "PLAY".
 
-<img alt="The main editor view" src="{{site.baseurl}}/assets/labeled-quickstart-editor.png" width="650" style="border: 2px solid black">
+<img alt="The main editor view" src="{{site.baseurl}}/assets/labeled-quickstart-editor.png" width="650" style="border: 2px solid gray">
 
 The blank white void surrounding the rider is called the canvas, which is where lines are drawn for the rider to interact with. Scattered on top of the canvas are a bunch of different widgets that may seem a little intimidating at first. Let's take a look at what each of them do.
 
@@ -23,7 +23,7 @@ The layers container (3) provides an interface for adding and editing track laye
 
 This is the sidebar page.
 
-<img alt="The audio and multirider settings fields" src="{{site.baseurl}}/assets/labeled-quickstart-settings.png" width="200" style="border: 2px solid black">
+<img alt="The audio and multirider settings fields" src="{{site.baseurl}}/assets/labeled-quickstart-settings.png" width="200" style="border: 2px solid gray">
 
 While the sidebar has many other important features, these are some of the primary features you need to get started.
 
@@ -35,13 +35,13 @@ Other sidebar tabs include the new button (3) for creating a blank track, the lo
 
 ## Recording
 
+{: .warning }
+Currently, recording tracks with audio is not supported. You must add the audio yourself in an editing software or online video editor, or use another method of recording such as OBS.
+
 This is the recording page, which can be accessed by pressing the export button on the sidebar.
 
-<img alt="The export track window" src="{{site.baseurl}}/assets/labeled-quickstart-export.png" width="650" style="border: 2px solid black">
+<img alt="The export track window" src="{{site.baseurl}}/assets/labeled-quickstart-export.png" width="450" style="border: 2px solid gray">
 
 This lets you record the track from within the browser, offering settings for the start of playback (1) and export resolution (2). For an initial recording, the default settings are fine.
 
 Once you are done adjusting these, the track can be recorded with the render button (3). It may take a while for the track to record, and you must keep the tab open for the track to fully render. Once it finishes, the video can be downloaded with the save button (4).
-
-{: .warning }
-Currently, recording tracks with audio is not supported. You must add the audio yourself in an editing software or online video editor, or use another method of recording such as OBS.

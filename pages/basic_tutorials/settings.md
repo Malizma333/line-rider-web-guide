@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Settings
+title: General Settings
 parent: Basic Tutorials
 permalink: /basic-tutorials/settings/
 redirect_to: /wip
