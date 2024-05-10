@@ -6,7 +6,7 @@ This is the repository of the official guide for the web edition of Line Rider, 
 
 ## Contributing
 
-To contribute, simply create a separate branch to make changes on, and open up a pull request. For less frequent users of GitHub, the following instructions go more in detail about how to do this.
+Contributing is only available to those with a GitHub account and access to git. To contribute, simply create a separate branch to make changes on, and open up a pull request. For less frequent users of GitHub, the following instructions go more in detail about how to do this.
 
 ### Creating the Branch
 
