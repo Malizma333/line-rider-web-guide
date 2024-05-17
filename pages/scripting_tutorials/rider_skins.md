@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 {: .warning }
-Although it is not a prerequisite, this tutorial uses terminology and concepts from the stylesheet language CSS. To learn more about its syntax and applications, a series of tutorials are available <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Tutorials/" target="_blank">here</a>.
+Although it is not a prerequisite, this tutorial uses terminology and concepts from the stylesheet language CSS. To learn more about its syntax and applications, a series of tutorials are available [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Tutorials/){:target="_blank"}.
 
 The rider texture is an svg that can be restyled with CSS styling. This tutorial focuses on fill and outline colors, but all styling options for svg segments are available. The `setCustomRiders` function that's used to apply styles to the rider also comes with some helpful properties. Information about using the function can be accessed via the `setCustomRiders.help` property. All of the texture components of the rider can be previewed with `setCustomRiders.parts`, and the initial texturing of the rider can be seen with `setCustomRiders.initial`.
 
