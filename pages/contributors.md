@@ -5,7 +5,7 @@ permalink: /contributors/
 nav_order: 6
 ---
 
-## Contributors
+# Contributors
 
 These are all of the people who contributed to this guide.
 

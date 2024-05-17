@@ -5,6 +5,8 @@ permalink: /quickstart/
 nav_order: 1
 ---
 
+# Quickstart
+
 ## Editor
 
 This is the editor view, which is the first thing you see when opening up the site and pressing "PLAY".
