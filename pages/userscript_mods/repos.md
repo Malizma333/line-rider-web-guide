@@ -4,7 +4,7 @@ title: List of Mods
 parent: Mods
 permalink: /userscripts/repos/
 redirect_to: /wip
-nav_order: 1
+nav_order: 2
 ---
 
 Info about finding mods
