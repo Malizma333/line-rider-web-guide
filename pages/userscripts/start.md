@@ -16,8 +16,10 @@ Linerider.com uses userscripts as the primary method of supporting mods. The fol
 - [Emergent Studios'](https://github.com/EmergentStudios/linerider-userscript-mods/blob/master/custom-tools-api.user.js)
 - [Malizma's](https://github.com/Malizma333/linerider-userscript-mods/blob/master/mods/line-rider-improved-api.user.js)
 
-<img alt="Install page on GitHub" src="{{site.baseurl}}/assets/mod-install-repo.png" width="650" style="border: 2px solid gray">
+<img alt="Install page on GitHub" src="{{site.baseurl}}/assets/mod-install-repo.png" width="650" style="border: 2px solid gray">\
+*Installing from GitHub*
 
-<img alt="Install page on Tampermonkey" src="{{site.baseurl}}/assets/mod-install-page.png" width="650" style="border: 2px solid gray">
+<img alt="Install page on Tampermonkey" src="{{site.baseurl}}/assets/mod-install-page.png" width="650" style="border: 2px solid gray">\
+*Installing in Tampermonkey*
 
 3) Choose any number of mods to install. Mods can be found at the GitHub repositories listed [here]({{ site.baseurl }}{% link pages/userscripts/repos.md %}).
