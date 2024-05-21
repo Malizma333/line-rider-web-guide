@@ -11,7 +11,7 @@ Although it is not a prerequisite, this tutorial uses terminology and concepts f
 
 The rider texture is an svg that can be restyled with CSS styling. This tutorial focuses on fill and outline colors, but all styling options for svg segments are available. The `setCustomRiders` function that's used to apply styles to the rider also comes with some helpful properties. Information about using the function can be accessed via the `setCustomRiders.help` property. All of the texture components of the rider can be previewed with `setCustomRiders.parts`, and the initial texturing of the rider can be seen with `setCustomRiders.initial`.
 
-Based on the output of `setCustomRiders.parts`, the rider is made up of different types of shapes, which can all be styled similarly. Some shapes can be accessed by their class using the "." symbol, while others are accessed by their id using the "#" symbol. In terms of shape properties, this guide mainly focuses on `fill` and `stroke` colors, but more properties can be explored at the link noted above.
+Based on the output of `setCustomRiders.parts`, the rider is made up of different types of shapes, which can all be styled similarly. Some shapes can be accessed by their class using the "." symbol, while others are accessed by their id using the "#" symbol. In terms of shape properties, this guide mainly focuses on colors and opacities, but more properties can be explored at the link noted above.
 
 ### Fill Colors
 
@@ -19,7 +19,7 @@ The `fill` property changes the background color of shapes. For example, this co
 
 ```js
 setCustomRiders([
-  ".scarfOdd { fill: gray; } .scarfEven { fill: gray; }"
+  ".scarfOdd {fill: gray;} .scarfEven {fill: gray;}"
 ])
 ```
 
@@ -29,7 +29,33 @@ The `stroke` property changes the outline color of shapes. For example, this cod
 
 ```js
 setCustomRiders([
-  "#string { stroke: green }"
+  "#string {stroke: green;}"
+])
+```
+
+### Transparency
+
+The `opacity` property can make transparent/translucent shapes. This example makes the sled 50% transparent.
+
+```js
+setCustomRiders([
+  ".sled {opacity: 0.5;}"
+])
+```
+
+This example makes the entire rider invisible.
+
+```js
+setCustomRiders([
+  `.outline {opacity: 0;}
+  .scarfEven {opacity: 0;}
+  .scarfOdd {opacity: 0;}
+  .hat {opacity: 0;}
+  #face-outline {opacity: 0;}
+  #hair {opacity: 0;}
+  #eye {opacity: 0;}
+  #head {opacity: 0;}
+  #string {opacity: 0;}`
 ])
 ```
 
