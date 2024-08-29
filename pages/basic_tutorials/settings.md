@@ -5,6 +5,8 @@ parent: Basic Tutorials
 permalink: /basic-tutorials/settings/
 ---
 
+## Settings
+
 This is the settings section of the sidebar. Numerous helpful toggles and controls can be found here.
 
 <img alt="The settings sidebar, which lists the subheadings general, hotkeys, playback camera, riders, audio, and advanced" src="{{site.baseurl}}/assets/settings-page.png" width="200" style="border: 2px solid gray">

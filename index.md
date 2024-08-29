@@ -15,7 +15,7 @@ This page was created using static site generation from markdown files using [Je
 
 ### Navigation
 
-Navigation is made easy with the search feature, just click on the search bar at the top or press the keybind `Ctrl/Cmd + F` to begin searching for topics. A good place to get started is the [quickstart page]({{ site.baseurl }}{% link pages/quickstart.md %}), which demonstrates the essential features of line rider web needed to create your first track.
+Navigation is made easy with the search feature, just click on the search bar at the top or press the keybind **Ctrl/Cmd + F** to begin searching for topics. A good place to get started is the [quickstart page]({{ site.baseurl }}{% link pages/quickstart.md %}), which demonstrates the essential features of line rider web needed to create your first track.
 
 For developers, the separate [developer site](https://malizma333.github.io/line-rider-web-docs/){:target="_blank"} goes more in detail about API features useful for developing mods and external tools.
 

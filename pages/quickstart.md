@@ -17,7 +17,7 @@ The blank white void surrounding the rider is called the canvas, which is where 
 
 The sidebar (1) holds track settings that make editing easier, such as hotkey preferences and track framerate. These and other sidebar components are explored later on in this article and more in-depth in the [basic tutorials]({{ site.baseurl }}{% link pages/basic_tutorials/index.md %}) section.
 
-The toolbar (2) contains tools helpful for editing and moving around track files, and the timeline (4) lets you replay your track, edit the speed, and more. Tips for mastering these and other editor features can be found in the [controls tutorial]({{ site.baseurl }}{% link pages/basic_tutorials/controls.md %}).
+The toolbar (2) contains tools helpful for editing and moving around track files, and the timeline (4) lets you replay your track, edit the speed, and more. Tips for mastering these and other editor shortcuts can be found in the [editor shortcuts]({{ site.baseurl }}{% link pages/basic_tutorials/shortcuts.md %}) tutorial.
 
 The layers container (3) provides an interface for adding and editing track layers. These layers can be hidden, locked from editing, recolored, and reordered to display on top of each other. Some of the more advanced capabilities of layers are explained in the [layer automation scripting]({{ site.baseurl }}{% link pages/scripting_tutorials/layer_automation.md %}) tutorial.
 
