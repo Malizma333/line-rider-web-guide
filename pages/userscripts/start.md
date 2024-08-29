@@ -14,7 +14,7 @@ Linerider.com uses userscripts as the primary method of supporting mods. The fol
 
 2) Install a mod loader. This will be responsible for registering each mod you install and providing UI to interact with them. Here are the two options for mod loaders:
 - [Emergent Studios'](https://github.com/EmergentStudios/linerider-userscript-mods/blob/master/custom-tools-api.user.js)
-- [Malizma's](https://github.com/Malizma333/linerider-userscript-mods/blob/master/mods/line-rider-improved-api.user.js)
+- [Malizma's](https://github.com/Malizma333/linerider-userscript-mods/blob/master/line-rider-improved-api.user.js)
 
 <img alt="Install page on GitHub" src="{{site.baseurl}}/assets/mod-install-repo.png" width="650" style="border: 2px solid gray">\
 *Installing from GitHub*
