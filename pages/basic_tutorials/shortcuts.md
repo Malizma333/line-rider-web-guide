@@ -36,7 +36,7 @@ Along with navigating the timeline, there are also some shortcuts for previewing
 
 - The **I** key can be used to place a flag at the current point in the timeline, which is helpful for marking off a section of track.
 - Once a flag has been place, the **U** key can be used to stop the track and rewind it back to where the flag is located.
-- The **Y** key is similar, but plays the track from the point the flag is at.
+- The **Y** key is similar to the stop shortcut, but plays the track from the point the flag is at.
 - The **O** key can be pressed to toggle "Onion Skinning," which shows where the rider(s) are in the next and previous few frames.
 
 ### Editing Line Selections
@@ -45,7 +45,7 @@ The following are some nice shortcuts for editing selections of lines.
 
 - Lines can be added to a selection by holding **Shift** while selecting, and can be removed by holding **Ctrl/Cmd** while selecting.
 - The line type of each line in a selection can be changed with **Alt + 1/2/3**, where **1** corresponds to blue, **2** corresponds to red, and **3** corresponds to green.
-- In addition, each line in the selection can be flipped with **Alt + f**.
+- In addition, each line in the selection can be flipped with **Alt + F**.
 - A selection can also be nudged with hotkeys. For large nudges, the key combination **Alt + W/A/S/D** can be used to move lines up/left/down/right, respectively. Similarly, smaller nudges can be achieved using **Alt + Shift + W/A/S/D**.
 
 ### Cloning Lines
