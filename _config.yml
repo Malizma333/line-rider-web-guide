@@ -3,7 +3,7 @@ description: The comprehensive guide to the web version of Line Rider.
 url: https://malizma333.github.io
 baseurl: "/line-rider-web-guide"
 repository: Malizma333/line-rider-web-guide
-github: [metadata]
+# github: [metadata]
 
 # Build settings
 open_url: true

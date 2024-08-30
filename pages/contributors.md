@@ -3,6 +3,7 @@ layout: page
 title: Contributors
 permalink: /contributors/
 nav_order: 6
+published: false
 ---
 
 # Contributors
