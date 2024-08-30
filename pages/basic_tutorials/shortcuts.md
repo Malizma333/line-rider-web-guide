@@ -26,7 +26,7 @@ These are a few general hotkeys that are overall helpful when using the editor.
 Navigating the timeline to a specific point quickly is useful for editing specific sections of the track. Below are some of the shortcuts for timeline navigating.
 
 - Like most video previewers and editors, **Space** can be used to play and pause the track.
-- **Period** (.) can be held to fast-forward the track. When using it while the track is pause, it plays the track at 1x speed, so you can preview the current part without having to tap play, then tap pause. While the track is playing, it speeds up the track to 2x speed.
+- **Period** (.) can be held to fast-forward the track. When using it while the track is paused, it plays the track at 1x speed, so you can preview the current part without having to tap play, then tap pause. While the track is playing, it speeds up the track to 2x speed.
 - **Comma** (,) can be held to rewind the track. Similar to fast-forward, holding it while the track is paused rewinds at 1x speed, whereas rewinding while the track is playing rewinds at 2x speed.
 - The **Right Arrow** and **Left Arrow** keys can be pressed to advance and go back a frame, respectively. If in smooth playback, these will go to the next or previous closest physics frame, which is 1/40th of a second. This is useful for seeing specific frames once at a specific section.
 
@@ -44,6 +44,7 @@ Along with navigating the timeline, there are also some shortcuts for previewing
 The following are some nice shortcuts for editing selections of lines.
 
 - Lines can be added to a selection by holding **Shift** while selecting, and can be removed by holding **Ctrl/Cmd** while selecting.
+- Individual line nodes can be selected while holding **Alt**.
 - The line type of each line in a selection can be changed with **Alt + 1/2/3**, where **1** corresponds to blue, **2** corresponds to red, and **3** corresponds to green.
 - In addition, each line in the selection can be flipped with **Alt + F**.
 - A selection can also be nudged with hotkeys. For large nudges, the key combination **Alt + W/A/S/D** can be used to move lines up/left/down/right, respectively. Similarly, smaller nudges can be achieved using **Alt + Shift + W/A/S/D**.
