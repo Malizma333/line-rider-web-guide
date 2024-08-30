@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creating Mods
+title: Creating Mods ⚠️
 parent: Mods
 permalink: /userscripts/develop/
 redirect_to: /wip
