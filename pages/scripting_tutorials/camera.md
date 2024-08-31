@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Camera ⚠️
+title: Camera Controls ⚠️
 parent: Scripting Tutorials
 permalink: /script-tutorials/camera/
 redirect_to: /wip

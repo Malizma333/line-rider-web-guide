@@ -23,7 +23,7 @@ Below the hotkeys are the playback camera settings. The first field is **Zoom** 
 
 <img alt="The playback camera section of the sidebar, with zoom level and playback camera dimension fields" src="{{site.baseurl}}/assets/settings-playback-camera.png" width="200" style="border: 2px solid gray">
 
-Upon filling out the viewport dimensions, a couple new toggles appear. The first toggle, **Show Viewport**, shows where the camera is looking at during the current playback frame, as well as the collision box of the camera that causes it to move with bosh. The second toggle, **Show Visible Areas**, grays out all of the portions of track invisible to the camera up to the current index in the timeline.
+Upon filling out the viewport dimensions, a couple new toggles appear. The first toggle, **Show Viewport**, shows where the camera is looking at during the current playback frame, as well as the collision box of the camera that causes it to move with the rider. The second toggle, **Show Visible Areas**, grays out all of the portions of track invisible to the camera up to the current index in the timeline.
 
 <img alt="The playback camera section of the sidebar after dimensions have been filled, with the new toggles discussed above" src="{{site.baseurl}}/assets/settings-playback-camera-filled.png" width="200" style="border: 2px solid gray">
 
