@@ -22,8 +22,13 @@ Circular gravity is an effect that causes the rider to fall relative to where th
 
 ```js
 // Cache reset code
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 
 // Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", {  get() {
@@ -51,8 +56,13 @@ We can utilize gravity to achieve movement that is more instantaneous and precis
 
 ```js
 // Cache reset code
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 
 // Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
@@ -87,8 +97,13 @@ Because of the way gravity checks work, each rider is iteratively processed in s
 
 ```js
 // Cache reset code
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 
 // Global variable to keep track of which rider we're on
 const GRAVITY_CONSTANTS = {iterationCounter: 0};
@@ -116,8 +131,13 @@ We can integrate gravity controls with keyboard listeners to produce movement on
 
 ```js
 // Cache reset code
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 
 // Global variable to keep track of which key is being pressed
 const GRAVITY_CONSTANTS = {aKeyPressed: false, dKeyPressed: false};

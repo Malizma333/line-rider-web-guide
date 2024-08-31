@@ -24,11 +24,16 @@ The overall gravity of a track can be set using the `$ENGINE_PARAMS` window prop
 window.$ENGINE_PARAMS.gravity = {x: 0, y: 0};
 ```
 
-To get around having to run the gravity code before starting the track, the following code is used to reset the physics and camera caches. This code is especially useful for scripts relying on changing gravity, and is included in all other script samples.
+To get around having to run the gravity code before starting the track, the following code is used to reset the physics and camera caches. This code is especially useful for rerunning scripts that change gravity, and is included in all other script samples.
 
 ```js
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 ```
 
 ### Changing Gravity
@@ -37,8 +42,13 @@ Sometimes, it's helpful to have different gravity for different sections of trac
 
 ```js
 // Cache reset code
-window.store.getState().camera.playbackFollower._frames.length = 0;
-window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+(function() {
+    window.store.getState().camera.playbackFollower._frames.length = 0;
+    window.store.getState().simulator.engine.engine._computed._frames.length = 1;
+    const currentIndex = store.getState().player.index;
+    store.dispatch({type: "SET_PLAYER_INDEX", payload: 0});
+    requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
+})();
 
 // Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
