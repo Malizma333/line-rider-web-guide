@@ -23,3 +23,8 @@ Info about camera scripts
 - Explanation
 - Example script
 - Values in detail
+
+### Static Camera
+- Explanation
+- Example script
+- Values in detail
