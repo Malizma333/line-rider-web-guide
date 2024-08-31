@@ -21,7 +21,6 @@ The following section relates to some more advanced gravity scripting techniques
 Circular gravity is an effect that causes the rider to fall relative to where the sled is facing. For example, if the sled is upright, gravity points in the normal downwards direction. But if the rider is sideways such that the bottom of the sled is pointing left, then gravity will also point left. The following code achieves this effect.
 
 ```js
-// Cache reset code
 (function() {
     window.store.getState().camera.playbackFollower._frames.length = 0;
     window.store.getState().simulator.engine.engine._computed._frames.length = 1;
@@ -30,7 +29,6 @@ Circular gravity is an effect that causes the rider to fall relative to where th
     requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
 })();
 
-// Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", {  get() {
   // Retrieving data about the current rider
   const index = store.getState().simulator.engine.engine._computed._frames.length;
@@ -55,7 +53,6 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", {  get() {
 We can utilize gravity to achieve movement that is more instantaneous and precise than we could otherwise achieve with lines. Gravity can be used to teleport the rider to a precise location with some simple physics calculations. The following code is an example of this.
 
 ```js
-// Cache reset code
 (function() {
     window.store.getState().camera.playbackFollower._frames.length = 0;
     window.store.getState().simulator.engine.engine._computed._frames.length = 1;
@@ -64,7 +61,6 @@ We can utilize gravity to achieve movement that is more instantaneous and precis
     requestAnimationFrame(() => store.dispatch({type: "SET_PLAYER_INDEX", payload: currentIndex}));
 })();
 
-// Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
   // Define position to teleport to and index of teleportation
   const targetIndex = 40;
@@ -96,7 +92,6 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
 Because of the way gravity checks work, each rider is iteratively processed in seventeen sub-frames, one at a time. This means we can check for which rider is being processed and return a different gravity value accordingly. The following is an example of this.
 
 ```js
-// Cache reset code
 (function() {
     window.store.getState().camera.playbackFollower._frames.length = 0;
     window.store.getState().simulator.engine.engine._computed._frames.length = 1;
@@ -108,7 +103,6 @@ Because of the way gravity checks work, each rider is iteratively processed in s
 // Global variable to keep track of which rider we're on
 const GRAVITY_CONSTANTS = {iterationCounter: 0};
 
-// Gravity definition function
 Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
   // Calculating the current rider
   GRAVITY_CONSTANTS.iterationCounter += 1;
@@ -127,7 +121,7 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
 
 ### Platform Controller
 
-We can integrate gravity controls with keyboard listeners to produce movement on key presses while the track is playing. Below is an example of a platformer script that accelerates the rider left or right based on the **A** and **D** keys.
+We can integrate gravity code with keyboard listeners to produce interactive movement while the track is playing. Below is an example of a platformer script that accelerates the rider left or right based on the **A** and **D** keys, respectively.
 
 ```js
 // Cache reset code

@@ -41,7 +41,6 @@ To get around having to run the gravity code before starting the track, the foll
 Sometimes, it's helpful to have different gravity for different sections of track. The following code is an example of defining gravity values for ranges of indices.
 
 ```js
-// Cache reset code
 (function() {
     window.store.getState().camera.playbackFollower._frames.length = 0;
     window.store.getState().simulator.engine.engine._computed._frames.length = 1;
