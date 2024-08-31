@@ -18,13 +18,13 @@ The following section relates to basic gravity scripting techniques. For more ad
 
 ### Setting Gravity
 
-The overall gravity of a track can be set using the `$ENGINE_PARAMS` window property. This gravity value applies to all riders in the track. This property should be set *before the track runs*. The following code sample sets the gravity to zero.
+The overall gravity of a track can be set using the `$ENGINE_PARAMS` window property. This gravity value applies to all riders within the track. This property should be set *before the track runs*. The following code sample sets the gravity to zero.
 
 ```js
 window.$ENGINE_PARAMS.gravity = {x: 0, y: 0};
 ```
 
-To get around having to run the gravity code before starting the track, the following code is used to reset the physics and camera caches. This code is especially useful for rerunning scripts that change gravity, and is included in all other script samples.
+To get around having to run the gravity code before starting the track each time, the following code is used to reset the physics and camera caches. This code is especially useful when rerunning scripts that change gravity, so it is included in all other script samples.
 
 ```js
 (function() {
@@ -38,7 +38,7 @@ To get around having to run the gravity code before starting the track, the foll
 
 ### Changing Gravity
 
-Sometimes, it's helpful to have different gravity for different sections of track. The following code is an example of defining gravity values for ranges of indices.
+Sometimes, it's helpful to have different gravity for different track sections. The following code is an example of defining gravity values for ranges of indices.
 
 ```js
 (function() {

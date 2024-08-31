@@ -14,11 +14,11 @@ Gravity-related code tends to use hacky methods of accessing the physics simulat
 {: .note }
 The y direction in the track physics simulator is inverted, so positive y points down and vice-versa.
 
-The following section relates to some more advanced gravity scripting techniques, which have more complex code examples. These examples can also be used for specific sections of track, similar to the changing gravity example found in the [basic]({{ site.baseurl }}{% link pages/scripting_tutorials/basic_gravity.md %}) section.
+The following section relates to some more advanced gravity scripting techniques, which have more complex code examples. These examples can also be used for specific sections of the track, similar to the changing gravity example found in the [basic]({{ site.baseurl }}{% link pages/scripting_tutorials/basic_gravity.md %}) section.
 
 ### Circular/Relative Gravity
 
-Circular gravity is an effect that causes the rider to fall relative to where the sled is facing. For example, if the sled is upright, gravity points in the normal downwards direction. But if the rider is sideways such that the bottom of the sled is pointing left, then gravity will also point left. The following code achieves this effect.
+Circular gravity is an effect that causes the rider to fall relative to where the sled is facing. For example, if the sled is upright, gravity points in the normal downward direction. But if the rider is sideways such that the bottom of the sled is pointing left, gravity will also point left. The following code achieves this effect.
 
 ```js
 (function() {
@@ -50,7 +50,7 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", {  get() {
 
 ### Teleportation
 
-We can utilize gravity to achieve movement that is more instantaneous and precise than we could otherwise achieve with lines. Gravity can be used to teleport the rider to a precise location with some simple physics calculations. The following code is an example of this.
+We can utilize gravity to achieve movement that is more instantaneous and precise than we could otherwise achieve with lines. Gravity can be used to teleport the rider to an exact location with some simple physics calculations. The following code is an example of this.
 
 ```js
 (function() {
@@ -89,7 +89,7 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
 
 ### Multirider Gravity
 
-Because of the way gravity checks work, each rider is iteratively processed in seventeen sub-frames, one at a time. This means we can check for which rider is being processed and return a different gravity value accordingly. The following is an example of this.
+Because of the way gravity checks work, each rider is iteratively processed in seventeen sub-frames, one at a time. This means we can check which rider is being processed and return a different gravity value accordingly. The following is an example of this.
 
 ```js
 (function() {
@@ -121,7 +121,7 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", { get() {
 
 ### Platform Controller
 
-We can integrate gravity code with keyboard listeners to produce interactive movement while the track is playing. Below is an example of a platformer script that accelerates the rider left or right based on the **A** and **D** keys, respectively.
+We can integrate gravity code with keyboard listeners to produce interactive movement while the track plays. Below is an example of a platformer script that accelerates the rider left or right based on the **A** and **D** keys, respectively.
 
 ```js
 // Cache reset code

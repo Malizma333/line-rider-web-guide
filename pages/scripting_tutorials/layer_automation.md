@@ -7,11 +7,11 @@ nav_order: 2
 ---
 ## Layer Automation
 
-This section explains the basics of layer automation, which is the technique of hiding and showing layers at specific times.
+This section explains the basics of layer automation, which is the technique of using code to hide and show layers at specific times.
 
 ### Basics
 
-This is the basic template for a layer automation function. You can set which layers are visible using the id of the layer and the current index in the timeline. However, it is somewhat inconvenient to access just these properties, so the next few examples will add some helpful boilerplate functions.
+This is the basic template for a layer automation function. You can set which layers are visible using the ID of the layer and the current index in the timeline. However, it is somewhat inconvenient to access these properties alone. The next few examples will add helpful boilerplate functions that expose other properties.
 
 ```js
 window.getLayerVisibleAtTime = (layerId, frame) => {
@@ -25,7 +25,7 @@ This first function converts timestamps to index values, so it doesn't have to b
 const timestamp = (min, sec, frame) => minute * 2400 + second * 40 + frame;
 ```
 
-This second function is for extracting the layer index from the layer id. This is needed because the id passed to the layer function doesn't necessarily correspond to its position in the list of layers. This function is very nice to have when wanting to quickly reference a layer without looking up its id. Although this boilerplate is quite long, a minified version is included in the full template.
+This second function is for extracting the layer index from the layer ID. This is needed because the id passed to the layer function doesn't necessarily correspond to its position in the list of layers. This function is very nice to have when wanting to quickly reference a layer without looking up its ID. Although this boilerplate is quite long, a minified version is included in the full template.
 
 ```js
 window.subscribe = (store = window.store, select = (state) => state, notify = () => {}) => {
@@ -57,7 +57,7 @@ window.subscribe(
 );
 ```
 
-Here is the full template with boilerplate code included. Now we can move on examples for using this function.
+Here is the full template with boilerplate code included. Now we can move on to examples for using this function.
 
 ```js
 window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
@@ -73,7 +73,7 @@ window.getLayerVisibleAtTime = (layerId, frame) => {
 
 ### Toggling Single Layers
 
-Here is a basic example of using layer automation code. It defaults to hiding the base layer at all times, and hides the second layer after a short time period. Note that in this extended version, we are only defining and returning the cases where layers should be hidden, and in all other cases, layers will be shown by default. This is because of the `return true;` statement at the end.
+Here is a basic example of using layer automation code. It hides the base layer at all times, hides the second layer after a couple of seconds, and shows all other layers. Note that in this extended version, we are only defining the cases where layers should be hidden, and in all other cases, layers will be shown by default. This is because of the `return true;` statement at the end.
 
 ```js
 window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
