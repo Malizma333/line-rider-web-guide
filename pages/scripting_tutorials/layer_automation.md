@@ -25,7 +25,7 @@ This first function converts timestamps to index values, so it doesn't have to b
 const timestamp = (min, sec, frame) => minute * 2400 + second * 40 + frame;
 ```
 
-This second function is for extracting the layer index from the layer ID. This is needed because the id passed to the layer function doesn't necessarily correspond to its position in the list of layers. This function is very nice to have when wanting to quickly reference a layer without looking up its ID. Although this boilerplate is quite long, a minified version is included in the full template.
+This second function is for extracting the layer index from the layer ID by creating an array mapping ids to indices. This is needed because the id passed to the layer function doesn't necessarily correspond to its position in the list of layers. Although this function is quite long, it only needs to be run once to get the array working. You can read more about how this works in the subsection for [state subscriptions]({{ site.baseurl }}{% link pages/scripting_tutorials/misc_examples.md %}/#subscriptions).
 
 ```js
 window.subscribe = (store = window.store, select = (state) => state, notify = () => {}) => {
@@ -46,7 +46,7 @@ window.subscribe = (store = window.store, select = (state) => state, notify = ()
 
 window.subscribe(
   window.store,
-  ({ simulator: { engine: { engine: { state: {layers} } } } }) => layers,
+  (state) => state.simulator.engine.engine.state.layers,
   (layers) => {
     window.idToIndex = [];
 
@@ -57,11 +57,9 @@ window.subscribe(
 );
 ```
 
-Here is the full template with boilerplate code included. Now we can move on to examples for using this function.
+Here is the template with boilerplate code included. Now we can move on to examples for using this function.
 
 ```js
-window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
-
 window.getLayerVisibleAtTime = (layerId, frame) => {
   const layerIndex = window.idToIndex[layerId];
   const t = (m, s, f) => m * 2400 + s * 40 + f;
@@ -76,8 +74,6 @@ window.getLayerVisibleAtTime = (layerId, frame) => {
 Here is a basic example of using layer automation code. It hides the base layer at all times, hides the second layer after a couple of seconds, and shows all other layers. Note that in this extended version, we are only defining the cases where layers should be hidden, and in all other cases, layers will be shown by default. This is because of the `return true;` statement at the end.
 
 ```js
-window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
-
 window.getLayerVisibleAtTime = (layerId, frame) => {
   const layerIndex = window.idToIndex[layerId];
   const t = (m, s, f) => m * 2400 + s * 40 + f;
@@ -104,8 +100,6 @@ window.getLayerVisibleAtTime = (layerId, frame) => {
 We can also toggle groups of layers at a time, in the case that we want to turn off a single drawing comprised of multiple layers.
 
 ```js
-window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
-
 window.getLayerVisibleAtTime = (layerId, frame) => {
   const layerIndex = window.idToIndex[layerId];
   const t = (m, s, f) => m * 2400 + s * 40 + f;
@@ -127,8 +121,6 @@ window.getLayerVisibleAtTime = (layerId, frame) => {
 To create cycles of layers hiding and showing for animation purposes, we can use the modulo (%) operator to calculate when each layer should hide or show. Below is an example of this.
 
 ```js
-window.subscribe=(e=window.store,t=e=>e,i=()=>{})=>{let s;function n(){let n=t(e.getState());n!==s&&i(s=n)}let r=e.subscribe(n);return n(),r},window.subscribe(window.store,({simulator:{engine:{engine:{state:{layers:e}}}}})=>e,e=>{for(let[t,i]of(window.idToIndex=[],[...e].entries()))window.idToIndex[i.id]=t});
-
 window.getLayerVisibleAtTime = (layerId, frame) => {
   const layerIndex = window.idToIndex[layerId];
   const t = (m, s, f) => m * 2400 + s * 40 + f;
