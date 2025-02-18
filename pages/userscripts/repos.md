@@ -13,6 +13,7 @@ Here are some notable mod repositories full of mods that enhance the Line Rider 
 - [Ethan Li Mods](https://github.com/ethanjli/linerider-userscript-mods){:target="_blank"}
 - [Conqu3red Mods](https://github.com/Conqu3red/linerider-userscript-mods){:target="_blank"}
 - [Malizma Mods](https://github.com/Malizma333/linerider-userscript-mods){:target="_blank"}
+- [Anton Mods](https://github.com/ntnon/linerider-userscript-mods){:target="_blank"}
 
 ### Mods
 
