@@ -20,8 +20,10 @@ Here are some notable mod repositories full of mods that enhance the Line Rider 
 In addition, here is a list of mods to get started with.
 
 - [Bezier Tool](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-bezier-tool.user.js){:target="_blank"}
+- [Command Editor](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-command-editor.user.js){:target="_blank"}
 - [Line Metadata Editor](https://github.com/ethanjli/linerider-userscript-mods/raw/refs/heads/master/selection-metadata.user.js){:target="_blank"}
 - [More Controls](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-more-controls-mod.user.js){:target="_blank"}
+- [Scenery Width Slider](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-scenery-width-fix.user.js){:target="_blank"}
 - [Shade Selection](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-selection-shader-mod.user.js){:target="_blank"}
 - [Slice Selection](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-selection-slice-mod.user.js){:target="_blank"}
 - [Ten Point Cannon Generator](https://github.com/Malizma333/linerider-userscript-mods/raw/refs/heads/master/mods/line-rider-tenpc-generator-mod.user.js){:target="_blank"}
