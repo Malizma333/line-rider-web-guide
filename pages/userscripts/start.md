@@ -10,7 +10,7 @@ Linerider.com uses userscripts as the primary method of supporting mods. The fol
 
 ### Downloading Userscripts
 
-1) Install a userscript manager supported by your browser. There are multiple options available, but this guide recommends [Tampermonkey](https://www.tampermonkey.net/). This will allow mods to run during a linerider.com browser instance.
+1) Install a userscript manager supported by your browser. There are multiple options available, but this guide recommends [Tampermonkey](https://www.tampermonkey.net/). This will allow mods to run in linerider.com.
 
 2) Choose any number of mods to install. Mods can be found at the GitHub repositories listed [here]({{ site.baseurl }}{% link pages/userscripts/repos.md %}). To install mods, navigate to their respective github page, click "Raw," then follow the Tampermonkey prompt to install.
 
@@ -19,3 +19,9 @@ Linerider.com uses userscripts as the primary method of supporting mods. The fol
 
 <img alt="Install page on Tampermonkey" src="{{site.baseurl}}/assets/mod-install-page.png" width="650" style="border: 2px solid gray">\
 *Step 2.2: Installing in Tampermonkey*
+
+3) Enable mods by going to `Settings -> Advanced -> Mods Enabled` and switching them on.
+
+<img alt="Enable mods location in linerider.com" src="{{site.baseurl}}/assets/mod-enable-setting.png" width="650" style="border: 2px solid gray">
+
+4) Developer mode might be required for tampermonkey to work properly. See their [faqs](https://www.tampermonkey.net/faq.php?locale=en#Q209) for steps to enable it per browser.
