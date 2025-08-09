@@ -24,7 +24,6 @@ search:
   tokenizer_separator: /[\s/]+/
   rel_url: true
   button: true
-  focus_shortcut_key: 'f'
 
 nav_external_links:
   - title: Line Rider API
