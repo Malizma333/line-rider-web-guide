@@ -38,7 +38,7 @@ Object.defineProperty(window.$ENGINE_PARAMS, "gravity", {  get() {
   const noseContactPoint = riderData.points[2];
 
   // Calculating angle perpendicular to the sled
-  const angle = Math.atan2(tail.pos.y - nose.pos.y, tail.pos.x - nose.pos.x) - Math.PI/2;
+  const angle = Math.atan2(tailContactPoint.pos.y - noseContactPoint.pos.y, tailContactPoint.pos.x - noseContactPoint.pos.x) - Math.PI/2;
 
   // Returns gravity vector pointing perpendicular away from sled
   return {
