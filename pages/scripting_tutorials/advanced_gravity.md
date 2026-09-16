@@ -3,7 +3,7 @@ layout: page
 title: Advanced Gravity
 parent: Scripting Tutorials
 permalink: /script-tutorials/advanced-gravity/
-nav_order: 6
+nav_order: 5
 ---
 
 ## Advanced Gravity Scripts

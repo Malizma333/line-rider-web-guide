@@ -3,7 +3,7 @@ layout: page
 title: Time Remapping
 parent: Scripting Tutorials
 permalink: /script-tutorials/time-remap/
-nav_order: 4
+nav_order: 3
 ---
 
 Time remapping is used to slow down or speed up the playback speed while the track is playing. It is recommended to use smooth playback, as set frame rates have unstable behavior.

@@ -3,7 +3,7 @@ layout: page
 title: Basic Gravity
 parent: Scripting Tutorials
 permalink: /script-tutorials/basic-gravity/
-nav_order: 5
+nav_order: 4
 ---
 
 ## Gravity Scripts

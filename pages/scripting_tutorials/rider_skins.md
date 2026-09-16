@@ -3,7 +3,7 @@ layout: page
 title: Rider Skin Customization
 parent: Scripting Tutorials
 permalink: /script-tutorials/rider-skins/
-nav_order: 3
+nav_order: 2
 ---
 
 {: .note }

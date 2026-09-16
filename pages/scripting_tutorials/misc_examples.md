@@ -2,7 +2,7 @@
 layout: page
 parent: Scripting Tutorials
 permalink: /script-tutorials/misc-examples/
-nav_order: 7
+nav_order: 6
 ---
 
 ## Misc Examples
