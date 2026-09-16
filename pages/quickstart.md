@@ -50,5 +50,5 @@ Once you are done adjusting these, the track can be recorded with the render but
 
 ## Ultimate Tutorial
 
-For users wanting a more in-depth quickstart tutorial, the [Ultimate Beginner's Line Rider Tutorial](https://www.youtube.com/watch?v=RdQ4DyDG_Uk) produced by Jade Decker covers practical tips and techniques for using linerider.com, targeted at complete beginners. This includes editing modes, important hotkeys, and installing and using mods in a concise 12 minute runtime. These topics are also covered among the pages in this site.
+For users wanting a more in-depth quickstart tutorial, the [Ultimate Beginner's Line Rider Tutorial](https://www.youtube.com/watch?v=RdQ4DyDG_Uk) produced by Jade Decker covers practical tips and techniques for using linerider.com, targeted at complete beginners. This includes editing modes, important hotkeys, and installing and using userscripts in a concise 12 minute runtime. These topics are also covered among the pages in this site.
 
