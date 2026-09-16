@@ -47,3 +47,8 @@ This is the recording page, which can be accessed by pressing the export button 
 This lets you record the track from within the browser, offering settings for the start of playback (1) and export resolution (2). For an initial recording, the default settings are fine.
 
 Once you are done adjusting these, the track can be recorded with the render button (3). It may take a while for the track to record, and you must keep the tab open for the track to fully render. Once it finishes, the video can be downloaded with the save button (4).
+
+## Ultimate Tutorial
+
+For users wanting a more in-depth quickstart tutorial, the [Ultimate Beginner's Line Rider Tutorial](https://www.youtube.com/watch?v=RdQ4DyDG_Uk) produced by Jade Decker covers practical tips and techniques for using linerider.com, targeted at complete beginners. This includes editing modes, important hotkeys, and installing and using mods in a concise 12 minute runtime. These topics are also covered among the pages in this site.
+
